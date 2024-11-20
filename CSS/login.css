@@ -1,0 +1,249 @@
+/* Global Styles */
+body {
+  background: url("../Images/blur.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: #0a6fe9; /* Soft blue for links */
+}
+
+a:hover {
+  color: #d35400; /* Hover color to match the theme */
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #223141;
+}
+
+.myform {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1.1rem;
+  border: 1px solid rgba(0,0,0,.2);
+  padding: 1.5rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.tx-tfm {
+  text-transform: uppercase;
+}
+
+.mybtn {
+  border-radius: 50px;
+  background-color: #d35400;
+  color: #fff;
+  padding: 10px 30px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.mybtn:hover {
+  background-color: #e67e22;
+}
+
+.login-or {
+  position: relative;
+  color: #aaa;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.span-or {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  margin-left: -25px;
+  background-color: #fff;
+  width: 50px;
+  text-align: center;
+}
+
+.hr-or {
+  height: 1px;
+  margin: 10px 0;
+  background-color: #ddd;
+}
+
+.google {
+  color: #666;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+form .error {
+  color: #ff0000;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+#second {
+  display: none;
+}
+
+h1 {
+  font-family: "Lobster Two", cursive;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #ff6347; /* Tomato color for emphasis */
+}
+
+.nav-item {
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  margin-left: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navi {
+  background-color: #223141;
+  margin-bottom: 1%;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  background-color: whitesmoke;
+}
+
+#course1, #course2, #course3, #course4, #course5, #course6 {
+  display: none;
+}
+
+.btn:hover {
+  color: #d35400;
+}
+
+.fluid p {
+  color: black;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.header h2 {
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: #223141;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.h {
+  color: #d35400;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.mycourse {
+  background-color: #112d42;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+
+#text, #links {
+  color: #d35400;
+}
+
+.navbar {
+  background-color: #223141;
+  padding: 0.5rem 1rem;
+}
+
+#text {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.brand {
+  color: #0a6fe9;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+#active {
+  color: #d35400;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+#links {
+  color: white;
+}
+
+#links:hover {
+  background-color: #d35400;
+}
+
+footer {
+  background-color: #223141;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #ff6347;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .myform {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+}
